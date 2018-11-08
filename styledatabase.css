@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient(to right, #000000, #434343);;
+    color: white;
+}
+
+
+.header{
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+p{
+  color: #FFFFFF;
+}
+
+.team {
+    color: black;
+    border-spacing: 3px;
+    width: 40%;
+    border: 1px solid black;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+th{
+  background-color: blue;
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.addTeam {
+  border-spacing: 3px;
+  width: 40%;
+  background-image: linear-gradient(to right, #1c92d2, #C0C0C0	);
+  border: 10px solid black;
+}
